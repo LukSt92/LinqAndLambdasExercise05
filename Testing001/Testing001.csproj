@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1AB26C5-1A8C-4098-BB29-7001BA66840D}</ProjectGuid>
+    <ProjectGuid>{2975C30E-4692-4957-BF67-59FA376737E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LinqAndLambdasExercise05</RootNamespace>
-    <AssemblyName>LinqAndLambdasExercise05</AssemblyName>
+    <RootNamespace>Testing001</RootNamespace>
+    <AssemblyName>Testing001</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BetterSportSequence.cs" />
-    <Compile Include="ManualSportEnumerator.cs" />
-    <Compile Include="ManualSportSequence.cs" />
-    <Compile Include="PowersOfTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

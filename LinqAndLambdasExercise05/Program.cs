@@ -10,9 +10,15 @@ namespace LinqAndLambdasExercise05
     {
         static void Main(string[] args)
         {
-            var sports = new ManualSportSequence();
-            foreach (var sport in sports)
-                Console.WriteLine(sport);
+            //var sports = new ManualSportSequence();
+            //foreach (var sport in sports)
+            //    Console.WriteLine(sport);
+            //var sports = new BetterSportSequence();
+            //foreach (var sport in sports)
+            //    Console.WriteLine(sport);
+            var powersOfTwo = new PowersOfTwo();
+            foreach (int i in powersOfTwo)
+                Console.WriteLine(i);
         }
     }
 }
