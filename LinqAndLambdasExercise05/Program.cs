@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace LinqAndLambdasExercise05
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            var sports = new ManualSportSequence();
+            foreach (var sport in sports)
+                Console.WriteLine(sport);
         }
     }
 }
